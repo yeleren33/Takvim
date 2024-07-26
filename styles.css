@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.calendar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+
+.notes {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.days {
+    display: flex;
+}
+
+.day {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 5px 0;
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.notes h2 {
+    margin-top: 0;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
